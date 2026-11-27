@@ -1,0 +1,4757 @@
+{
+  "plan": "541c8731b92b4354aeaa4e8dcf86cfb91ac9e7df48f6355d8e93b9040ea847ef",
+  "rows": [
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 42 successes and 58 failures. Cases outside A comprise 14 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 42,
+      "exact_pair": [
+        42,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 42\nDenominator: 100\nProposed answer: 42%",
+          "pair": [
+            42,
+            100
+          ],
+          "proposal": 42
+        },
+        "exact/conflict": {
+          "text": "Numerator: 42\nDenominator: 100\nProposed answer: 58%",
+          "pair": [
+            42,
+            100
+          ],
+          "proposal": 58
+        },
+        "numerator/correct": {
+          "text": "Numerator: 58\nDenominator: 100\nProposed answer: 42%",
+          "pair": [
+            58,
+            100
+          ],
+          "proposal": 42
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 58\nDenominator: 100\nProposed answer: 21%",
+          "pair": [
+            58,
+            100
+          ],
+          "proposal": 21
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 58\nDenominator: 100\nProposed answer: 58%",
+          "pair": [
+            58,
+            100
+          ],
+          "proposal": 58
+        },
+        "denominator/correct": {
+          "text": "Numerator: 42\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            42,
+            200
+          ],
+          "proposal": 42
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 42\nDenominator: 200\nProposed answer: 29%",
+          "pair": [
+            42,
+            200
+          ],
+          "proposal": 29
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 42\nDenominator: 200\nProposed answer: 21%",
+          "pair": [
+            42,
+            200
+          ],
+          "proposal": 21
+        },
+        "both/correct": {
+          "text": "Numerator: 58\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            58,
+            200
+          ],
+          "proposal": 42
+        },
+        "both/conflict": {
+          "text": "Numerator: 58\nDenominator: 200\nProposed answer: 58%",
+          "pair": [
+            58,
+            200
+          ],
+          "proposal": 58
+        },
+        "both/coherent": {
+          "text": "Numerator: 58\nDenominator: 200\nProposed answer: 29%",
+          "pair": [
+            58,
+            200
+          ],
+          "proposal": 29
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 120 successes and 180 failures. Cases outside A comprise 294 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 40,
+      "exact_pair": [
+        120,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 120\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            120,
+            300
+          ],
+          "proposal": 40
+        },
+        "exact/conflict": {
+          "text": "Numerator: 120\nDenominator: 300\nProposed answer: 60%",
+          "pair": [
+            120,
+            300
+          ],
+          "proposal": 60
+        },
+        "numerator/correct": {
+          "text": "Numerator: 180\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            180,
+            300
+          ],
+          "proposal": 40
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 180\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            180,
+            300
+          ],
+          "proposal": 20
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 180\nDenominator: 300\nProposed answer: 60%",
+          "pair": [
+            180,
+            300
+          ],
+          "proposal": 60
+        },
+        "denominator/correct": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 40
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 30%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 30
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 20%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 20
+        },
+        "both/correct": {
+          "text": "Numerator: 180\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            180,
+            600
+          ],
+          "proposal": 40
+        },
+        "both/conflict": {
+          "text": "Numerator: 180\nDenominator: 600\nProposed answer: 60%",
+          "pair": [
+            180,
+            600
+          ],
+          "proposal": 60
+        },
+        "both/coherent": {
+          "text": "Numerator: 180\nDenominator: 600\nProposed answer: 30%",
+          "pair": [
+            180,
+            600
+          ],
+          "proposal": 30
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 108 successes and 192 failures. Cases outside A comprise 64 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 36,
+      "exact_pair": [
+        108,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 108\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            108,
+            300
+          ],
+          "proposal": 36
+        },
+        "exact/conflict": {
+          "text": "Numerator: 108\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            108,
+            300
+          ],
+          "proposal": 64
+        },
+        "numerator/correct": {
+          "text": "Numerator: 192\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            192,
+            300
+          ],
+          "proposal": 36
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 192\nDenominator: 300\nProposed answer: 18%",
+          "pair": [
+            192,
+            300
+          ],
+          "proposal": 18
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 192\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            192,
+            300
+          ],
+          "proposal": 64
+        },
+        "denominator/correct": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 36%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 36
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 32%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 32
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 18%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 18
+        },
+        "both/correct": {
+          "text": "Numerator: 192\nDenominator: 600\nProposed answer: 36%",
+          "pair": [
+            192,
+            600
+          ],
+          "proposal": 36
+        },
+        "both/conflict": {
+          "text": "Numerator: 192\nDenominator: 600\nProposed answer: 64%",
+          "pair": [
+            192,
+            600
+          ],
+          "proposal": 64
+        },
+        "both/coherent": {
+          "text": "Numerator: 192\nDenominator: 600\nProposed answer: 32%",
+          "pair": [
+            192,
+            600
+          ],
+          "proposal": 32
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 48 successes and 72 failures. Cases outside A comprise 87 successes and the rest failures, 120 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 40,
+      "exact_pair": [
+        48,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 48\nDenominator: 120\nProposed answer: 40%",
+          "pair": [
+            48,
+            120
+          ],
+          "proposal": 40
+        },
+        "exact/conflict": {
+          "text": "Numerator: 48\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            48,
+            120
+          ],
+          "proposal": 60
+        },
+        "numerator/correct": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 40%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 40
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 20
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 60
+        },
+        "denominator/correct": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 40
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 30
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 20
+        },
+        "both/correct": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 40
+        },
+        "both/conflict": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 60%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 60
+        },
+        "both/coherent": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 30
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 54 successes and 96 failures. Cases outside A comprise 4 successes and the rest failures, 150 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 36,
+      "exact_pair": [
+        54,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 36
+        },
+        "exact/conflict": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 64
+        },
+        "numerator/correct": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 36
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 18%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 18
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 64
+        },
+        "denominator/correct": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 36
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 32
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 18%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 18
+        },
+        "both/correct": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 36
+        },
+        "both/conflict": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 64
+        },
+        "both/coherent": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 32
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 102 successes and 198 failures. Cases outside A comprise 79 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 34,
+      "exact_pair": [
+        102,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 34
+        },
+        "exact/conflict": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 66
+        },
+        "numerator/correct": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 34
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 17%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 17
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 66
+        },
+        "denominator/correct": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 34%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 34
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 33%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 33
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 17%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 17
+        },
+        "both/correct": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 34%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 34
+        },
+        "both/conflict": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 66%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 66
+        },
+        "both/coherent": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 33%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 33
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 24 successes and 96 failures. Cases outside A comprise 53 successes and the rest failures, 120 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 20,
+      "exact_pair": [
+        24,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 20
+        },
+        "exact/conflict": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 80
+        },
+        "numerator/correct": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 20
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 10%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 10
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 80
+        },
+        "denominator/correct": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 20
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 40
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 10%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 10
+        },
+        "both/correct": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 20
+        },
+        "both/conflict": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 80%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 80
+        },
+        "both/coherent": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 40
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 114 successes and 186 failures. Cases outside A comprise 62 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 38,
+      "exact_pair": [
+        114,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 114\nDenominator: 300\nProposed answer: 38%",
+          "pair": [
+            114,
+            300
+          ],
+          "proposal": 38
+        },
+        "exact/conflict": {
+          "text": "Numerator: 114\nDenominator: 300\nProposed answer: 62%",
+          "pair": [
+            114,
+            300
+          ],
+          "proposal": 62
+        },
+        "numerator/correct": {
+          "text": "Numerator: 186\nDenominator: 300\nProposed answer: 38%",
+          "pair": [
+            186,
+            300
+          ],
+          "proposal": 38
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 186\nDenominator: 300\nProposed answer: 19%",
+          "pair": [
+            186,
+            300
+          ],
+          "proposal": 19
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 186\nDenominator: 300\nProposed answer: 62%",
+          "pair": [
+            186,
+            300
+          ],
+          "proposal": 62
+        },
+        "denominator/correct": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 38
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 31%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 31
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 19%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 19
+        },
+        "both/correct": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 38
+        },
+        "both/conflict": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 62%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 62
+        },
+        "both/coherent": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 31%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 31
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 96 successes and 54 failures. Cases outside A comprise 51 successes and the rest failures, 150 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 64,
+      "exact_pair": [
+        96,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 64
+        },
+        "exact/conflict": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 36
+        },
+        "numerator/correct": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 64
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 32%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 32
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 36
+        },
+        "denominator/correct": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 64
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 18%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 18
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 32
+        },
+        "both/correct": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 64
+        },
+        "both/conflict": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 36
+        },
+        "both/coherent": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 18%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 18
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 54 successes and 46 failures. Cases outside A comprise 25 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 54,
+      "exact_pair": [
+        54,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 54
+        },
+        "exact/conflict": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 46%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 46
+        },
+        "numerator/correct": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 54
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 27%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 27
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 46%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 46
+        },
+        "denominator/correct": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 54
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 23%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 23
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 27
+        },
+        "both/correct": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 54
+        },
+        "both/conflict": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 46%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 46
+        },
+        "both/coherent": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 23%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 23
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 126 successes and 174 failures. Cases outside A comprise 257 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 42,
+      "exact_pair": [
+        126,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 126\nDenominator: 300\nProposed answer: 42%",
+          "pair": [
+            126,
+            300
+          ],
+          "proposal": 42
+        },
+        "exact/conflict": {
+          "text": "Numerator: 126\nDenominator: 300\nProposed answer: 58%",
+          "pair": [
+            126,
+            300
+          ],
+          "proposal": 58
+        },
+        "numerator/correct": {
+          "text": "Numerator: 174\nDenominator: 300\nProposed answer: 42%",
+          "pair": [
+            174,
+            300
+          ],
+          "proposal": 42
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 174\nDenominator: 300\nProposed answer: 21%",
+          "pair": [
+            174,
+            300
+          ],
+          "proposal": 21
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 174\nDenominator: 300\nProposed answer: 58%",
+          "pair": [
+            174,
+            300
+          ],
+          "proposal": 58
+        },
+        "denominator/correct": {
+          "text": "Numerator: 126\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            126,
+            600
+          ],
+          "proposal": 42
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 126\nDenominator: 600\nProposed answer: 29%",
+          "pair": [
+            126,
+            600
+          ],
+          "proposal": 29
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 126\nDenominator: 600\nProposed answer: 21%",
+          "pair": [
+            126,
+            600
+          ],
+          "proposal": 21
+        },
+        "both/correct": {
+          "text": "Numerator: 174\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            174,
+            600
+          ],
+          "proposal": 42
+        },
+        "both/conflict": {
+          "text": "Numerator: 174\nDenominator: 600\nProposed answer: 58%",
+          "pair": [
+            174,
+            600
+          ],
+          "proposal": 58
+        },
+        "both/coherent": {
+          "text": "Numerator: 174\nDenominator: 600\nProposed answer: 29%",
+          "pair": [
+            174,
+            600
+          ],
+          "proposal": 29
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 54 successes and 46 failures. Cases outside A comprise 81 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 54,
+      "exact_pair": [
+        54,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 54
+        },
+        "exact/conflict": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 46%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 46
+        },
+        "numerator/correct": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 54
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 27%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 27
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 46\nDenominator: 100\nProposed answer: 46%",
+          "pair": [
+            46,
+            100
+          ],
+          "proposal": 46
+        },
+        "denominator/correct": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 54
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 23%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 23
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 27
+        },
+        "both/correct": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 54
+        },
+        "both/conflict": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 46%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 46
+        },
+        "both/coherent": {
+          "text": "Numerator: 46\nDenominator: 200\nProposed answer: 23%",
+          "pair": [
+            46,
+            200
+          ],
+          "proposal": 23
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 48 successes and 52 failures. Cases outside A comprise 97 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 48,
+      "exact_pair": [
+        48,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 48\nDenominator: 100\nProposed answer: 48%",
+          "pair": [
+            48,
+            100
+          ],
+          "proposal": 48
+        },
+        "exact/conflict": {
+          "text": "Numerator: 48\nDenominator: 100\nProposed answer: 52%",
+          "pair": [
+            48,
+            100
+          ],
+          "proposal": 52
+        },
+        "numerator/correct": {
+          "text": "Numerator: 52\nDenominator: 100\nProposed answer: 48%",
+          "pair": [
+            52,
+            100
+          ],
+          "proposal": 48
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 52\nDenominator: 100\nProposed answer: 24%",
+          "pair": [
+            52,
+            100
+          ],
+          "proposal": 24
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 52\nDenominator: 100\nProposed answer: 52%",
+          "pair": [
+            52,
+            100
+          ],
+          "proposal": 52
+        },
+        "denominator/correct": {
+          "text": "Numerator: 48\nDenominator: 200\nProposed answer: 48%",
+          "pair": [
+            48,
+            200
+          ],
+          "proposal": 48
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 48\nDenominator: 200\nProposed answer: 26%",
+          "pair": [
+            48,
+            200
+          ],
+          "proposal": 26
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 48\nDenominator: 200\nProposed answer: 24%",
+          "pair": [
+            48,
+            200
+          ],
+          "proposal": 24
+        },
+        "both/correct": {
+          "text": "Numerator: 52\nDenominator: 200\nProposed answer: 48%",
+          "pair": [
+            52,
+            200
+          ],
+          "proposal": 48
+        },
+        "both/conflict": {
+          "text": "Numerator: 52\nDenominator: 200\nProposed answer: 52%",
+          "pair": [
+            52,
+            200
+          ],
+          "proposal": 52
+        },
+        "both/coherent": {
+          "text": "Numerator: 52\nDenominator: 200\nProposed answer: 26%",
+          "pair": [
+            52,
+            200
+          ],
+          "proposal": 26
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 60 successes and 40 failures. Cases outside A comprise 70 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 60,
+      "exact_pair": [
+        60,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 60\nDenominator: 100\nProposed answer: 60%",
+          "pair": [
+            60,
+            100
+          ],
+          "proposal": 60
+        },
+        "exact/conflict": {
+          "text": "Numerator: 60\nDenominator: 100\nProposed answer: 40%",
+          "pair": [
+            60,
+            100
+          ],
+          "proposal": 40
+        },
+        "numerator/correct": {
+          "text": "Numerator: 40\nDenominator: 100\nProposed answer: 60%",
+          "pair": [
+            40,
+            100
+          ],
+          "proposal": 60
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 40\nDenominator: 100\nProposed answer: 30%",
+          "pair": [
+            40,
+            100
+          ],
+          "proposal": 30
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 40\nDenominator: 100\nProposed answer: 40%",
+          "pair": [
+            40,
+            100
+          ],
+          "proposal": 40
+        },
+        "denominator/correct": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 60%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 60
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 20%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 20
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 30%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 30
+        },
+        "both/correct": {
+          "text": "Numerator: 40\nDenominator: 200\nProposed answer: 60%",
+          "pair": [
+            40,
+            200
+          ],
+          "proposal": 60
+        },
+        "both/conflict": {
+          "text": "Numerator: 40\nDenominator: 200\nProposed answer: 40%",
+          "pair": [
+            40,
+            200
+          ],
+          "proposal": 40
+        },
+        "both/coherent": {
+          "text": "Numerator: 40\nDenominator: 200\nProposed answer: 20%",
+          "pair": [
+            40,
+            200
+          ],
+          "proposal": 20
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 144 successes and 156 failures. Cases outside A comprise 104 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 48,
+      "exact_pair": [
+        144,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 144\nDenominator: 300\nProposed answer: 48%",
+          "pair": [
+            144,
+            300
+          ],
+          "proposal": 48
+        },
+        "exact/conflict": {
+          "text": "Numerator: 144\nDenominator: 300\nProposed answer: 52%",
+          "pair": [
+            144,
+            300
+          ],
+          "proposal": 52
+        },
+        "numerator/correct": {
+          "text": "Numerator: 156\nDenominator: 300\nProposed answer: 48%",
+          "pair": [
+            156,
+            300
+          ],
+          "proposal": 48
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 156\nDenominator: 300\nProposed answer: 24%",
+          "pair": [
+            156,
+            300
+          ],
+          "proposal": 24
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 156\nDenominator: 300\nProposed answer: 52%",
+          "pair": [
+            156,
+            300
+          ],
+          "proposal": 52
+        },
+        "denominator/correct": {
+          "text": "Numerator: 144\nDenominator: 600\nProposed answer: 48%",
+          "pair": [
+            144,
+            600
+          ],
+          "proposal": 48
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 144\nDenominator: 600\nProposed answer: 26%",
+          "pair": [
+            144,
+            600
+          ],
+          "proposal": 26
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 144\nDenominator: 600\nProposed answer: 24%",
+          "pair": [
+            144,
+            600
+          ],
+          "proposal": 24
+        },
+        "both/correct": {
+          "text": "Numerator: 156\nDenominator: 600\nProposed answer: 48%",
+          "pair": [
+            156,
+            600
+          ],
+          "proposal": 48
+        },
+        "both/conflict": {
+          "text": "Numerator: 156\nDenominator: 600\nProposed answer: 52%",
+          "pair": [
+            156,
+            600
+          ],
+          "proposal": 52
+        },
+        "both/coherent": {
+          "text": "Numerator: 156\nDenominator: 600\nProposed answer: 26%",
+          "pair": [
+            156,
+            600
+          ],
+          "proposal": 26
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 90 successes and 60 failures. Cases outside A comprise 96 successes and the rest failures, 150 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 60,
+      "exact_pair": [
+        90,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 90\nDenominator: 150\nProposed answer: 60%",
+          "pair": [
+            90,
+            150
+          ],
+          "proposal": 60
+        },
+        "exact/conflict": {
+          "text": "Numerator: 90\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            90,
+            150
+          ],
+          "proposal": 40
+        },
+        "numerator/correct": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 60%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 60
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 30%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 30
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 40
+        },
+        "denominator/correct": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 60%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 60
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 20
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 30%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 30
+        },
+        "both/correct": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 60%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 60
+        },
+        "both/conflict": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 40
+        },
+        "both/coherent": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 20
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 60 successes and 90 failures. Cases outside A comprise 146 successes and the rest failures, 150 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 40,
+      "exact_pair": [
+        60,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 40
+        },
+        "exact/conflict": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 60%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 60
+        },
+        "numerator/correct": {
+          "text": "Numerator: 90\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            90,
+            150
+          ],
+          "proposal": 40
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 90\nDenominator: 150\nProposed answer: 20%",
+          "pair": [
+            90,
+            150
+          ],
+          "proposal": 20
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 90\nDenominator: 150\nProposed answer: 60%",
+          "pair": [
+            90,
+            150
+          ],
+          "proposal": 60
+        },
+        "denominator/correct": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 40
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 30%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 30
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 20
+        },
+        "both/correct": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 40
+        },
+        "both/conflict": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 60%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 60
+        },
+        "both/coherent": {
+          "text": "Numerator: 90\nDenominator: 300\nProposed answer: 30%",
+          "pair": [
+            90,
+            300
+          ],
+          "proposal": 30
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 168 successes and 132 failures. Cases outside A comprise 142 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 56,
+      "exact_pair": [
+        168,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 168\nDenominator: 300\nProposed answer: 56%",
+          "pair": [
+            168,
+            300
+          ],
+          "proposal": 56
+        },
+        "exact/conflict": {
+          "text": "Numerator: 168\nDenominator: 300\nProposed answer: 44%",
+          "pair": [
+            168,
+            300
+          ],
+          "proposal": 44
+        },
+        "numerator/correct": {
+          "text": "Numerator: 132\nDenominator: 300\nProposed answer: 56%",
+          "pair": [
+            132,
+            300
+          ],
+          "proposal": 56
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 132\nDenominator: 300\nProposed answer: 28%",
+          "pair": [
+            132,
+            300
+          ],
+          "proposal": 28
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 132\nDenominator: 300\nProposed answer: 44%",
+          "pair": [
+            132,
+            300
+          ],
+          "proposal": 44
+        },
+        "denominator/correct": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 56%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 56
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 22%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 22
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 28%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 28
+        },
+        "both/correct": {
+          "text": "Numerator: 132\nDenominator: 600\nProposed answer: 56%",
+          "pair": [
+            132,
+            600
+          ],
+          "proposal": 56
+        },
+        "both/conflict": {
+          "text": "Numerator: 132\nDenominator: 600\nProposed answer: 44%",
+          "pair": [
+            132,
+            600
+          ],
+          "proposal": 44
+        },
+        "both/coherent": {
+          "text": "Numerator: 132\nDenominator: 600\nProposed answer: 22%",
+          "pair": [
+            132,
+            600
+          ],
+          "proposal": 22
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 30 successes and 70 failures. Cases outside A comprise 6 successes and the rest failures, 100 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 30,
+      "exact_pair": [
+        30,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 30\nDenominator: 100\nProposed answer: 30%",
+          "pair": [
+            30,
+            100
+          ],
+          "proposal": 30
+        },
+        "exact/conflict": {
+          "text": "Numerator: 30\nDenominator: 100\nProposed answer: 70%",
+          "pair": [
+            30,
+            100
+          ],
+          "proposal": 70
+        },
+        "numerator/correct": {
+          "text": "Numerator: 70\nDenominator: 100\nProposed answer: 30%",
+          "pair": [
+            70,
+            100
+          ],
+          "proposal": 30
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 70\nDenominator: 100\nProposed answer: 15%",
+          "pair": [
+            70,
+            100
+          ],
+          "proposal": 15
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 70\nDenominator: 100\nProposed answer: 70%",
+          "pair": [
+            70,
+            100
+          ],
+          "proposal": 70
+        },
+        "denominator/correct": {
+          "text": "Numerator: 30\nDenominator: 200\nProposed answer: 30%",
+          "pair": [
+            30,
+            200
+          ],
+          "proposal": 30
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 30\nDenominator: 200\nProposed answer: 35%",
+          "pair": [
+            30,
+            200
+          ],
+          "proposal": 35
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 30\nDenominator: 200\nProposed answer: 15%",
+          "pair": [
+            30,
+            200
+          ],
+          "proposal": 15
+        },
+        "both/correct": {
+          "text": "Numerator: 70\nDenominator: 200\nProposed answer: 30%",
+          "pair": [
+            70,
+            200
+          ],
+          "proposal": 30
+        },
+        "both/conflict": {
+          "text": "Numerator: 70\nDenominator: 200\nProposed answer: 70%",
+          "pair": [
+            70,
+            200
+          ],
+          "proposal": 70
+        },
+        "both/coherent": {
+          "text": "Numerator: 70\nDenominator: 200\nProposed answer: 35%",
+          "pair": [
+            70,
+            200
+          ],
+          "proposal": 35
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 198 successes and 102 failures. Cases outside A comprise 169 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 66,
+      "exact_pair": [
+        198,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 66
+        },
+        "exact/conflict": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 34
+        },
+        "numerator/correct": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 66
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 33%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 33
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 34
+        },
+        "denominator/correct": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 66%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 66
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 17%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 17
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 33%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 33
+        },
+        "both/correct": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 66%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 66
+        },
+        "both/conflict": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 34%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 34
+        },
+        "both/coherent": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 17%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 17
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 72 successes and 48 failures. Cases outside A comprise 99 successes and the rest failures, 120 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 60,
+      "exact_pair": [
+        72,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 60
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 40%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 40
+        },
+        "numerator/correct": {
+          "text": "Numerator: 48\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            48,
+            120
+          ],
+          "proposal": 60
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 48\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            48,
+            120
+          ],
+          "proposal": 30
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 48\nDenominator: 120\nProposed answer: 40%",
+          "pair": [
+            48,
+            120
+          ],
+          "proposal": 40
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 60%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 60
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 20
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 30
+        },
+        "both/correct": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 60%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 60
+        },
+        "both/conflict": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 40
+        },
+        "both/coherent": {
+          "text": "Numerator: 48\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            48,
+            240
+          ],
+          "proposal": 20
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 36 successes and 84 failures. Cases outside A comprise 114 successes and the rest failures, 120 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 30,
+      "exact_pair": [
+        36,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 30
+        },
+        "exact/conflict": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 70
+        },
+        "numerator/correct": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 30
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 15%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 15
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 70
+        },
+        "denominator/correct": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 30
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 35
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 15%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 15
+        },
+        "both/correct": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 30
+        },
+        "both/conflict": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 70%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 70
+        },
+        "both/coherent": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 35
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 36 successes and 84 failures. Cases outside A comprise 52 successes and the rest failures, 120 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 30,
+      "exact_pair": [
+        36,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 30
+        },
+        "exact/conflict": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 70
+        },
+        "numerator/correct": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 30
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 15%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 15
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 70
+        },
+        "denominator/correct": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 30
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 35
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 15%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 15
+        },
+        "both/correct": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 30
+        },
+        "both/conflict": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 70%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 70
+        },
+        "both/coherent": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 35
+        }
+      }
+    },
+    {
+      "task": "count",
+      "question": "A registry lists these case counts. Cases in A comprise 198 successes and 102 failures. Cases outside A comprise 48 successes and the rest failures, 300 cases outside A in total. Among A cases, what percentage are successes? Return the exact integer percentage.",
+      "target": 66,
+      "exact_pair": [
+        198,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 66
+        },
+        "exact/conflict": {
+          "text": "Numerator: 198\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            198,
+            300
+          ],
+          "proposal": 34
+        },
+        "numerator/correct": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 66%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 66
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 33%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 33
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 102\nDenominator: 300\nProposed answer: 34%",
+          "pair": [
+            102,
+            300
+          ],
+          "proposal": 34
+        },
+        "denominator/correct": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 66%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 66
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 17%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 17
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 198\nDenominator: 600\nProposed answer: 33%",
+          "pair": [
+            198,
+            600
+          ],
+          "proposal": 33
+        },
+        "both/correct": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 66%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 66
+        },
+        "both/conflict": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 34%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 34
+        },
+        "both/coherent": {
+          "text": "Numerator: 102\nDenominator: 600\nProposed answer: 17%",
+          "pair": [
+            102,
+            600
+          ],
+          "proposal": 17
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 12 | 5 | 5 | 2\nVerified | 6 | 7 | 3 | 2\nOther | 8 | 2 | 3 | 2\nOther | 21 | 7 | 2 | 1\nExcluded | 5 | 1 | 2 | 3\nReserve | 13 | 4 | 7 | 2\nExcluded | 13 | 5 | 6 | 1\nVerified | 10 | 5 | 3 | 1\nOther | 20 | 3 | 5 | 3\nReserve | 9 | 3 | 7 | 1\nVerified | 3 | 6 | 2 | 2\nReserve | 6 | 2 | 4 | 3\nExcluded | 51 | 4 | 4 | 2\nVerified | 11 | 8 | 8 | 3\nExcluded | 7 | 8 | 4 | 2",
+      "target": 20,
+      "exact_pair": [
+        24,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 20
+        },
+        "exact/conflict": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 30
+        },
+        "numerator/correct": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 20
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 10%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 10
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 36\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            36,
+            120
+          ],
+          "proposal": 30
+        },
+        "denominator/correct": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 20
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 15%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 15
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 10%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 10
+        },
+        "both/correct": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 20
+        },
+        "both/conflict": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 30
+        },
+        "both/coherent": {
+          "text": "Numerator: 36\nDenominator: 240\nProposed answer: 15%",
+          "pair": [
+            36,
+            240
+          ],
+          "proposal": 15
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 81 | 1 | 7 | 3\nOther | 49 | 8 | 8 | 2\nExcluded | 14 | 8 | 6 | 1\nReserve | 105 | 2 | 5 | 2\nReserve | 12 | 8 | 2 | 3\nOther | 26 | 2 | 1 | 2\nOther | 20 | 5 | 4 | 3\nVerified | 5 | 8 | 1 | 3\nVerified | 50 | 4 | 6 | 2\nExcluded | 6 | 1 | 5 | 2\nVerified | 6 | 2 | 8 | 1\nReserve | 6 | 2 | 4 | 1\nVerified | 5 | 4 | 2 | 2\nExcluded | 26 | 5 | 5 | 2\nOther | 9 | 6 | 3 | 1",
+      "target": 38,
+      "exact_pair": [
+        114,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 114\nDenominator: 300\nProposed answer: 38%",
+          "pair": [
+            114,
+            300
+          ],
+          "proposal": 38
+        },
+        "exact/conflict": {
+          "text": "Numerator: 114\nDenominator: 300\nProposed answer: 80%",
+          "pair": [
+            114,
+            300
+          ],
+          "proposal": 80
+        },
+        "numerator/correct": {
+          "text": "Numerator: 240\nDenominator: 300\nProposed answer: 38%",
+          "pair": [
+            240,
+            300
+          ],
+          "proposal": 38
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 240\nDenominator: 300\nProposed answer: 19%",
+          "pair": [
+            240,
+            300
+          ],
+          "proposal": 19
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 240\nDenominator: 300\nProposed answer: 80%",
+          "pair": [
+            240,
+            300
+          ],
+          "proposal": 80
+        },
+        "denominator/correct": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 38
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 40
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 114\nDenominator: 600\nProposed answer: 19%",
+          "pair": [
+            114,
+            600
+          ],
+          "proposal": 19
+        },
+        "both/correct": {
+          "text": "Numerator: 240\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            240,
+            600
+          ],
+          "proposal": 38
+        },
+        "both/conflict": {
+          "text": "Numerator: 240\nDenominator: 600\nProposed answer: 80%",
+          "pair": [
+            240,
+            600
+          ],
+          "proposal": 80
+        },
+        "both/coherent": {
+          "text": "Numerator: 240\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            240,
+            600
+          ],
+          "proposal": 40
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 34 | 1 | 4 | 1\nOther | 14 | 6 | 5 | 3\nExcluded | 5 | 3 | 6 | 1\nVerified | 7 | 3 | 8 | 1\nVerified | 6 | 6 | 6 | 2\nReserve | 41 | 6 | 7 | 1\nExcluded | 155 | 7 | 6 | 2\nOther | 9 | 6 | 6 | 2\nVerified | 88 | 6 | 8 | 2\nReserve | 93 | 4 | 5 | 2\nExcluded | 4 | 4 | 6 | 3\nVerified | 8 | 6 | 2 | 3\nReserve | 27 | 5 | 4 | 3\nExcluded | 4 | 5 | 4 | 2\nOther | 29 | 6 | 5 | 2",
+      "target": 62,
+      "exact_pair": [
+        186,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 186\nDenominator: 300\nProposed answer: 62%",
+          "pair": [
+            186,
+            300
+          ],
+          "proposal": 62
+        },
+        "exact/conflict": {
+          "text": "Numerator: 186\nDenominator: 300\nProposed answer: 94%",
+          "pair": [
+            186,
+            300
+          ],
+          "proposal": 94
+        },
+        "numerator/correct": {
+          "text": "Numerator: 282\nDenominator: 300\nProposed answer: 62%",
+          "pair": [
+            282,
+            300
+          ],
+          "proposal": 62
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 282\nDenominator: 300\nProposed answer: 31%",
+          "pair": [
+            282,
+            300
+          ],
+          "proposal": 31
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 282\nDenominator: 300\nProposed answer: 94%",
+          "pair": [
+            282,
+            300
+          ],
+          "proposal": 94
+        },
+        "denominator/correct": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 62%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 62
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 47%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 47
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 186\nDenominator: 600\nProposed answer: 31%",
+          "pair": [
+            186,
+            600
+          ],
+          "proposal": 31
+        },
+        "both/correct": {
+          "text": "Numerator: 282\nDenominator: 600\nProposed answer: 62%",
+          "pair": [
+            282,
+            600
+          ],
+          "proposal": 62
+        },
+        "both/conflict": {
+          "text": "Numerator: 282\nDenominator: 600\nProposed answer: 94%",
+          "pair": [
+            282,
+            600
+          ],
+          "proposal": 94
+        },
+        "both/coherent": {
+          "text": "Numerator: 282\nDenominator: 600\nProposed answer: 47%",
+          "pair": [
+            282,
+            600
+          ],
+          "proposal": 47
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 9 | 2 | 4 | 2\nReserve | 20 | 7 | 7 | 1\nOther | 5 | 3 | 8 | 3\nExcluded | 24 | 6 | 8 | 2\nOther | 3 | 7 | 3 | 2\nExcluded | 36 | 4 | 2 | 1\nVerified | 28 | 5 | 6 | 3\nExcluded | 6 | 2 | 8 | 2\nReserve | 11 | 2 | 5 | 3\nVerified | 15 | 8 | 8 | 1\nVerified | 5 | 2 | 8 | 2\nExcluded | 19 | 5 | 8 | 3\nOther | 7 | 3 | 3 | 1\nVerified | 9 | 3 | 2 | 2\nReserve | 12 | 2 | 8 | 2",
+      "target": 80,
+      "exact_pair": [
+        96,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 80
+        },
+        "exact/conflict": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 50%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 50
+        },
+        "numerator/correct": {
+          "text": "Numerator: 60\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            60,
+            120
+          ],
+          "proposal": 80
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 60\nDenominator: 120\nProposed answer: 40%",
+          "pair": [
+            60,
+            120
+          ],
+          "proposal": 40
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 60\nDenominator: 120\nProposed answer: 50%",
+          "pair": [
+            60,
+            120
+          ],
+          "proposal": 50
+        },
+        "denominator/correct": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 80%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 80
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 25%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 25
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 40
+        },
+        "both/correct": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 80%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 80
+        },
+        "both/conflict": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 50%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 50
+        },
+        "both/coherent": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 25%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 25
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 9 | 4 | 8 | 1\nVerified | 26 | 5 | 7 | 2\nReserve | 29 | 4 | 7 | 2\nExcluded | 8 | 3 | 5 | 3\nOther | 14 | 8 | 1 | 2\nVerified | 9 | 6 | 8 | 1\nExcluded | 18 | 6 | 1 | 2\nExcluded | 27 | 4 | 5 | 2\nOther | 5 | 5 | 6 | 2\nVerified | 2 | 1 | 7 | 3\nReserve | 29 | 4 | 4 | 1\nReserve | 3 | 2 | 5 | 3\nExcluded | 7 | 3 | 2 | 1\nVerified | 4 | 1 | 6 | 2\nOther | 10 | 7 | 5 | 3",
+      "target": 54,
+      "exact_pair": [
+        54,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 54
+        },
+        "exact/conflict": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 78
+        },
+        "numerator/correct": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 54
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 27%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 27
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 78
+        },
+        "denominator/correct": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 54
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 39
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 27
+        },
+        "both/correct": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 54
+        },
+        "both/conflict": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 78%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 78
+        },
+        "both/coherent": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 39
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 6 | 6 | 7 | 2\nOther | 52 | 3 | 7 | 2\nOther | 6 | 2 | 4 | 1\nReserve | 9 | 6 | 8 | 1\nReserve | 5 | 3 | 2 | 3\nExcluded | 37 | 6 | 6 | 1\nVerified | 2 | 8 | 1 | 3\nOther | 6 | 6 | 8 | 3\nReserve | 20 | 5 | 5 | 2\nVerified | 9 | 4 | 6 | 1\nExcluded | 30 | 7 | 5 | 3\nVerified | 27 | 8 | 8 | 2\nExcluded | 20 | 1 | 7 | 2\nVerified | 5 | 5 | 4 | 2\nExcluded | 6 | 8 | 3 | 2",
+      "target": 32,
+      "exact_pair": [
+        48,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 48\nDenominator: 150\nProposed answer: 32%",
+          "pair": [
+            48,
+            150
+          ],
+          "proposal": 32
+        },
+        "exact/conflict": {
+          "text": "Numerator: 48\nDenominator: 150\nProposed answer: 28%",
+          "pair": [
+            48,
+            150
+          ],
+          "proposal": 28
+        },
+        "numerator/correct": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 32%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 32
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 16%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 16
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 28%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 28
+        },
+        "denominator/correct": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 32
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 14%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 14
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 16%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 16
+        },
+        "both/correct": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 32
+        },
+        "both/conflict": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 28%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 28
+        },
+        "both/coherent": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 14%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 14
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 8 | 8 | 6 | 2\nVerified | 6 | 5 | 6 | 2\nVerified | 7 | 1 | 5 | 1\nExcluded | 8 | 3 | 8 | 1\nOther | 7 | 4 | 8 | 1\nExcluded | 9 | 6 | 8 | 3\nReserve | 22 | 8 | 1 | 2\nVerified | 2 | 2 | 8 | 3\nReserve | 11 | 2 | 4 | 3\nExcluded | 46 | 4 | 6 | 2\nExcluded | 2 | 1 | 6 | 2\nOther | 2 | 2 | 5 | 2\nOther | 5 | 2 | 3 | 3\nReserve | 12 | 3 | 4 | 1\nVerified | 42 | 4 | 5 | 2",
+      "target": 84,
+      "exact_pair": [
+        84,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 84
+        },
+        "exact/conflict": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 78
+        },
+        "numerator/correct": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 84
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 42%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 42
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 78
+        },
+        "denominator/correct": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 84%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 84
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 39
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 42
+        },
+        "both/correct": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 84%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 84
+        },
+        "both/conflict": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 78%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 78
+        },
+        "both/coherent": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 39
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 21 | 4 | 5 | 2\nExcluded | 3 | 3 | 7 | 3\nVerified | 6 | 7 | 4 | 2\nExcluded | 148 | 1 | 8 | 2\nVerified | 11 | 6 | 6 | 1\nReserve | 19 | 1 | 2 | 3\nReserve | 95 | 2 | 8 | 2\nVerified | 13 | 6 | 7 | 3\nReserve | 17 | 5 | 8 | 1\nOther | 15 | 3 | 6 | 1\nOther | 5 | 4 | 4 | 2\nOther | 8 | 2 | 7 | 3\nExcluded | 6 | 7 | 6 | 2\nVerified | 104 | 2 | 7 | 2\nExcluded | 12 | 6 | 6 | 1",
+      "target": 78,
+      "exact_pair": [
+        234,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 234\nDenominator: 300\nProposed answer: 78%",
+          "pair": [
+            234,
+            300
+          ],
+          "proposal": 78
+        },
+        "exact/conflict": {
+          "text": "Numerator: 234\nDenominator: 300\nProposed answer: 84%",
+          "pair": [
+            234,
+            300
+          ],
+          "proposal": 84
+        },
+        "numerator/correct": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 78%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 78
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 39%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 39
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 84%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 84
+        },
+        "denominator/correct": {
+          "text": "Numerator: 234\nDenominator: 600\nProposed answer: 78%",
+          "pair": [
+            234,
+            600
+          ],
+          "proposal": 78
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 234\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            234,
+            600
+          ],
+          "proposal": 42
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 234\nDenominator: 600\nProposed answer: 39%",
+          "pair": [
+            234,
+            600
+          ],
+          "proposal": 39
+        },
+        "both/correct": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 78%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 78
+        },
+        "both/conflict": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 84%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 84
+        },
+        "both/coherent": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 42
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nVerified | 10 | 4 | 8 | 2\nOther | 5 | 8 | 5 | 2\nExcluded | 29 | 8 | 5 | 1\nOther | 23 | 6 | 4 | 2\nVerified | 20 | 7 | 5 | 1\nOther | 4 | 2 | 8 | 3\nReserve | 16 | 5 | 2 | 2\nReserve | 57 | 4 | 4 | 1\nVerified | 4 | 8 | 3 | 3\nExcluded | 11 | 4 | 1 | 2\nReserve | 7 | 6 | 8 | 3\nVerified | 24 | 4 | 3 | 2\nExcluded | 3 | 1 | 3 | 3\nExcluded | 37 | 2 | 4 | 2\nOther | 6 | 6 | 2 | 1",
+      "target": 60,
+      "exact_pair": [
+        72,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 60
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            72,
+            120
+          ],
+          "proposal": 70
+        },
+        "numerator/correct": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 60%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 60
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 30%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 30
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 70
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 60%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 60
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 35
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 240\nProposed answer: 30%",
+          "pair": [
+            72,
+            240
+          ],
+          "proposal": 30
+        },
+        "both/correct": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 60%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 60
+        },
+        "both/conflict": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 70%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 70
+        },
+        "both/coherent": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 35
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 4 | 4 | 7 | 2\nVerified | 21 | 6 | 4 | 1\nReserve | 12 | 2 | 1 | 1\nVerified | 7 | 7 | 2 | 2\nReserve | 21 | 4 | 1 | 2\nVerified | 7 | 7 | 4 | 3\nExcluded | 9 | 3 | 4 | 3\nExcluded | 12 | 7 | 8 | 2\nVerified | 26 | 8 | 8 | 2\nExcluded | 3 | 7 | 1 | 1\nOther | 14 | 5 | 1 | 2\nReserve | 7 | 7 | 6 | 3\nOther | 4 | 4 | 2 | 1\nOther | 1 | 1 | 8 | 3\nExcluded | 40 | 5 | 6 | 2",
+      "target": 72,
+      "exact_pair": [
+        72,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 72
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 54
+        },
+        "numerator/correct": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 72
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 36%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 36
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 54
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 72
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 27
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 36%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 36
+        },
+        "both/correct": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 72
+        },
+        "both/conflict": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 54
+        },
+        "both/coherent": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 27
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 7 | 7 | 5 | 1\nVerified | 2 | 2 | 4 | 3\nVerified | 6 | 8 | 4 | 1\nReserve | 34 | 5 | 4 | 1\nReserve | 18 | 7 | 6 | 2\nVerified | 3 | 3 | 7 | 2\nOther | 40 | 5 | 3 | 2\nOther | 1 | 1 | 4 | 2\nExcluded | 24 | 5 | 6 | 2\nExcluded | 7 | 2 | 3 | 1\nExcluded | 8 | 5 | 8 | 2\nOther | 5 | 5 | 5 | 3\nExcluded | 21 | 4 | 6 | 3\nReserve | 8 | 7 | 6 | 3\nVerified | 14 | 4 | 3 | 2",
+      "target": 24,
+      "exact_pair": [
+        24,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 24\nDenominator: 100\nProposed answer: 24%",
+          "pair": [
+            24,
+            100
+          ],
+          "proposal": 24
+        },
+        "exact/conflict": {
+          "text": "Numerator: 24\nDenominator: 100\nProposed answer: 60%",
+          "pair": [
+            24,
+            100
+          ],
+          "proposal": 60
+        },
+        "numerator/correct": {
+          "text": "Numerator: 60\nDenominator: 100\nProposed answer: 24%",
+          "pair": [
+            60,
+            100
+          ],
+          "proposal": 24
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 60\nDenominator: 100\nProposed answer: 12%",
+          "pair": [
+            60,
+            100
+          ],
+          "proposal": 12
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 60\nDenominator: 100\nProposed answer: 60%",
+          "pair": [
+            60,
+            100
+          ],
+          "proposal": 60
+        },
+        "denominator/correct": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 24%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 24
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 30%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 30
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 12%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 12
+        },
+        "both/correct": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 24%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 24
+        },
+        "both/conflict": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 60%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 60
+        },
+        "both/coherent": {
+          "text": "Numerator: 60\nDenominator: 200\nProposed answer: 30%",
+          "pair": [
+            60,
+            200
+          ],
+          "proposal": 30
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 83 | 7 | 5 | 2\nOther | 6 | 5 | 2 | 2\nVerified | 79 | 8 | 6 | 2\nReserve | 104 | 3 | 7 | 2\nVerified | 7 | 8 | 3 | 1\nExcluded | 19 | 4 | 8 | 3\nVerified | 9 | 5 | 3 | 3\nExcluded | 71 | 2 | 5 | 1\nOther | 31 | 6 | 1 | 3\nVerified | 4 | 8 | 4 | 2\nOther | 4 | 6 | 3 | 2\nOther | 36 | 4 | 4 | 1\nReserve | 29 | 4 | 3 | 1\nExcluded | 18 | 8 | 3 | 2\nReserve | 10 | 3 | 2 | 3",
+      "target": 56,
+      "exact_pair": [
+        168,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 168\nDenominator: 300\nProposed answer: 56%",
+          "pair": [
+            168,
+            300
+          ],
+          "proposal": 56
+        },
+        "exact/conflict": {
+          "text": "Numerator: 168\nDenominator: 300\nProposed answer: 84%",
+          "pair": [
+            168,
+            300
+          ],
+          "proposal": 84
+        },
+        "numerator/correct": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 56%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 56
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 28%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 28
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 252\nDenominator: 300\nProposed answer: 84%",
+          "pair": [
+            252,
+            300
+          ],
+          "proposal": 84
+        },
+        "denominator/correct": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 56%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 56
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 42
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 168\nDenominator: 600\nProposed answer: 28%",
+          "pair": [
+            168,
+            600
+          ],
+          "proposal": 28
+        },
+        "both/correct": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 56%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 56
+        },
+        "both/conflict": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 84%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 84
+        },
+        "both/coherent": {
+          "text": "Numerator: 252\nDenominator: 600\nProposed answer: 42%",
+          "pair": [
+            252,
+            600
+          ],
+          "proposal": 42
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nReserve | 14 | 7 | 7 | 3\nExcluded | 32 | 2 | 7 | 2\nOther | 7 | 8 | 5 | 2\nExcluded | 21 | 4 | 8 | 2\nReserve | 26 | 8 | 1 | 1\nVerified | 18 | 1 | 7 | 3\nVerified | 8 | 2 | 1 | 2\nOther | 6 | 1 | 8 | 1\nReserve | 10 | 6 | 7 | 2\nExcluded | 9 | 6 | 6 | 1\nOther | 8 | 7 | 3 | 3\nExcluded | 6 | 8 | 5 | 3\nOther | 3 | 7 | 1 | 2\nVerified | 4 | 3 | 5 | 2\nVerified | 9 | 7 | 4 | 1",
+      "target": 72,
+      "exact_pair": [
+        72,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 72
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 54
+        },
+        "numerator/correct": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 72
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 36%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 36
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 54\nDenominator: 100\nProposed answer: 54%",
+          "pair": [
+            54,
+            100
+          ],
+          "proposal": 54
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 72
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 27
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 36%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 36
+        },
+        "both/correct": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 72
+        },
+        "both/conflict": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 54%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 54
+        },
+        "both/coherent": {
+          "text": "Numerator: 54\nDenominator: 200\nProposed answer: 27%",
+          "pair": [
+            54,
+            200
+          ],
+          "proposal": 27
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 37 | 5 | 6 | 3\nVerified | 8 | 7 | 5 | 1\nReserve | 5 | 1 | 4 | 3\nVerified | 10 | 4 | 2 | 2\nExcluded | 12 | 6 | 7 | 2\nVerified | 8 | 5 | 3 | 3\nOther | 12 | 4 | 5 | 2\nReserve | 10 | 8 | 8 | 2\nExcluded | 40 | 8 | 8 | 1\nVerified | 12 | 3 | 2 | 2\nOther | 36 | 7 | 8 | 2\nReserve | 57 | 1 | 4 | 1\nOther | 10 | 6 | 7 | 3\nExcluded | 13 | 8 | 8 | 2\nOther | 11 | 1 | 8 | 1",
+      "target": 36,
+      "exact_pair": [
+        54,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 36
+        },
+        "exact/conflict": {
+          "text": "Numerator: 54\nDenominator: 150\nProposed answer: 48%",
+          "pair": [
+            54,
+            150
+          ],
+          "proposal": 48
+        },
+        "numerator/correct": {
+          "text": "Numerator: 72\nDenominator: 150\nProposed answer: 36%",
+          "pair": [
+            72,
+            150
+          ],
+          "proposal": 36
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 72\nDenominator: 150\nProposed answer: 18%",
+          "pair": [
+            72,
+            150
+          ],
+          "proposal": 18
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 72\nDenominator: 150\nProposed answer: 48%",
+          "pair": [
+            72,
+            150
+          ],
+          "proposal": 48
+        },
+        "denominator/correct": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 36
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 24%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 24
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 54\nDenominator: 300\nProposed answer: 18%",
+          "pair": [
+            54,
+            300
+          ],
+          "proposal": 18
+        },
+        "both/correct": {
+          "text": "Numerator: 72\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            72,
+            300
+          ],
+          "proposal": 36
+        },
+        "both/conflict": {
+          "text": "Numerator: 72\nDenominator: 300\nProposed answer: 48%",
+          "pair": [
+            72,
+            300
+          ],
+          "proposal": 48
+        },
+        "both/coherent": {
+          "text": "Numerator: 72\nDenominator: 300\nProposed answer: 24%",
+          "pair": [
+            72,
+            300
+          ],
+          "proposal": 24
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nVerified | 35 | 5 | 2 | 2\nVerified | 9 | 2 | 2 | 1\nExcluded | 16 | 6 | 7 | 2\nExcluded | 7 | 3 | 8 | 1\nExcluded | 17 | 5 | 3 | 2\nOther | 13 | 7 | 7 | 2\nOther | 1 | 1 | 6 | 3\nExcluded | 20 | 8 | 4 | 3\nVerified | 5 | 1 | 4 | 2\nReserve | 5 | 5 | 4 | 3\nReserve | 4 | 3 | 4 | 2\nOther | 6 | 7 | 6 | 2\nOther | 5 | 1 | 2 | 1\nVerified | 3 | 2 | 8 | 3\nReserve | 20 | 1 | 7 | 1",
+      "target": 84,
+      "exact_pair": [
+        84,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 84
+        },
+        "exact/conflict": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 24%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 24
+        },
+        "numerator/correct": {
+          "text": "Numerator: 24\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            24,
+            100
+          ],
+          "proposal": 84
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 24\nDenominator: 100\nProposed answer: 42%",
+          "pair": [
+            24,
+            100
+          ],
+          "proposal": 42
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 24\nDenominator: 100\nProposed answer: 24%",
+          "pair": [
+            24,
+            100
+          ],
+          "proposal": 24
+        },
+        "denominator/correct": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 84%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 84
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 12%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 12
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 42
+        },
+        "both/correct": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 84%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 84
+        },
+        "both/conflict": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 24%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 24
+        },
+        "both/coherent": {
+          "text": "Numerator: 24\nDenominator: 200\nProposed answer: 12%",
+          "pair": [
+            24,
+            200
+          ],
+          "proposal": 12
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nReserve | 29 | 2 | 7 | 1\nOther | 13 | 7 | 8 | 3\nExcluded | 17 | 7 | 7 | 1\nOther | 27 | 4 | 8 | 2\nVerified | 1 | 1 | 7 | 2\nVerified | 8 | 4 | 6 | 1\nVerified | 29 | 5 | 1 | 2\nExcluded | 38 | 2 | 6 | 2\nOther | 4 | 3 | 2 | 2\nOther | 23 | 6 | 1 | 1\nExcluded | 25 | 3 | 7 | 3\nReserve | 25 | 7 | 8 | 2\nReserve | 14 | 7 | 3 | 3\nVerified | 2 | 8 | 2 | 3\nExcluded | 3 | 2 | 5 | 2",
+      "target": 40,
+      "exact_pair": [
+        60,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 40
+        },
+        "exact/conflict": {
+          "text": "Numerator: 60\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            60,
+            150
+          ],
+          "proposal": 64
+        },
+        "numerator/correct": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 40%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 40
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 20%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 20
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 96\nDenominator: 150\nProposed answer: 64%",
+          "pair": [
+            96,
+            150
+          ],
+          "proposal": 64
+        },
+        "denominator/correct": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 40
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 32
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 60\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            60,
+            300
+          ],
+          "proposal": 20
+        },
+        "both/correct": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 40
+        },
+        "both/conflict": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 64%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 64
+        },
+        "both/coherent": {
+          "text": "Numerator: 96\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            96,
+            300
+          ],
+          "proposal": 32
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nReserve | 16 | 5 | 2 | 2\nExcluded | 6 | 4 | 6 | 3\nVerified | 11 | 8 | 6 | 1\nVerified | 3 | 7 | 2 | 2\nVerified | 20 | 7 | 3 | 3\nOther | 4 | 2 | 2 | 2\nExcluded | 55 | 2 | 1 | 1\nVerified | 12 | 5 | 2 | 2\nOther | 7 | 1 | 3 | 3\nReserve | 3 | 8 | 1 | 3\nReserve | 9 | 1 | 4 | 1\nExcluded | 16 | 6 | 3 | 2\nOther | 7 | 1 | 6 | 1\nOther | 23 | 1 | 4 | 2\nExcluded | 34 | 2 | 7 | 2",
+      "target": 52,
+      "exact_pair": [
+        78,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 78\nDenominator: 150\nProposed answer: 52%",
+          "pair": [
+            78,
+            150
+          ],
+          "proposal": 52
+        },
+        "exact/conflict": {
+          "text": "Numerator: 78\nDenominator: 150\nProposed answer: 28%",
+          "pair": [
+            78,
+            150
+          ],
+          "proposal": 28
+        },
+        "numerator/correct": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 52%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 52
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 26%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 26
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 42\nDenominator: 150\nProposed answer: 28%",
+          "pair": [
+            42,
+            150
+          ],
+          "proposal": 28
+        },
+        "denominator/correct": {
+          "text": "Numerator: 78\nDenominator: 300\nProposed answer: 52%",
+          "pair": [
+            78,
+            300
+          ],
+          "proposal": 52
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 78\nDenominator: 300\nProposed answer: 14%",
+          "pair": [
+            78,
+            300
+          ],
+          "proposal": 14
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 78\nDenominator: 300\nProposed answer: 26%",
+          "pair": [
+            78,
+            300
+          ],
+          "proposal": 26
+        },
+        "both/correct": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 52%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 52
+        },
+        "both/conflict": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 28%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 28
+        },
+        "both/coherent": {
+          "text": "Numerator: 42\nDenominator: 300\nProposed answer: 14%",
+          "pair": [
+            42,
+            300
+          ],
+          "proposal": 14
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nVerified | 17 | 1 | 5 | 2\nExcluded | 12 | 7 | 6 | 3\nOther | 29 | 8 | 5 | 1\nExcluded | 42 | 1 | 5 | 2\nExcluded | 5 | 3 | 2 | 2\nReserve | 10 | 5 | 8 | 3\nExcluded | 47 | 3 | 7 | 1\nVerified | 8 | 6 | 5 | 1\nOther | 13 | 2 | 6 | 2\nOther | 20 | 5 | 2 | 3\nOther | 4 | 7 | 3 | 2\nVerified | 6 | 5 | 6 | 3\nReserve | 9 | 2 | 2 | 2\nVerified | 9 | 6 | 4 | 2\nReserve | 12 | 6 | 5 | 1",
+      "target": 32,
+      "exact_pair": [
+        48,
+        150
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 48\nDenominator: 150\nProposed answer: 32%",
+          "pair": [
+            48,
+            150
+          ],
+          "proposal": 32
+        },
+        "exact/conflict": {
+          "text": "Numerator: 48\nDenominator: 150\nProposed answer: 24%",
+          "pair": [
+            48,
+            150
+          ],
+          "proposal": 24
+        },
+        "numerator/correct": {
+          "text": "Numerator: 36\nDenominator: 150\nProposed answer: 32%",
+          "pair": [
+            36,
+            150
+          ],
+          "proposal": 32
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 36\nDenominator: 150\nProposed answer: 16%",
+          "pair": [
+            36,
+            150
+          ],
+          "proposal": 16
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 36\nDenominator: 150\nProposed answer: 24%",
+          "pair": [
+            36,
+            150
+          ],
+          "proposal": 24
+        },
+        "denominator/correct": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 32
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 12%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 12
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 48\nDenominator: 300\nProposed answer: 16%",
+          "pair": [
+            48,
+            300
+          ],
+          "proposal": 16
+        },
+        "both/correct": {
+          "text": "Numerator: 36\nDenominator: 300\nProposed answer: 32%",
+          "pair": [
+            36,
+            300
+          ],
+          "proposal": 32
+        },
+        "both/conflict": {
+          "text": "Numerator: 36\nDenominator: 300\nProposed answer: 24%",
+          "pair": [
+            36,
+            300
+          ],
+          "proposal": 24
+        },
+        "both/coherent": {
+          "text": "Numerator: 36\nDenominator: 300\nProposed answer: 12%",
+          "pair": [
+            36,
+            300
+          ],
+          "proposal": 12
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 5 | 5 | 2 | 3\nOther | 12 | 8 | 2 | 3\nVerified | 2 | 1 | 2 | 2\nOther | 9 | 8 | 5 | 1\nOther | 11 | 7 | 4 | 2\nOther | 25 | 1 | 7 | 2\nVerified | 6 | 6 | 1 | 1\nReserve | 44 | 4 | 7 | 2\nVerified | 4 | 1 | 3 | 3\nExcluded | 56 | 4 | 7 | 2\nExcluded | 2 | 5 | 1 | 2\nReserve | 3 | 7 | 1 | 3\nVerified | 5 | 1 | 8 | 2\nExcluded | 9 | 5 | 4 | 1\nReserve | 14 | 4 | 4 | 1",
+      "target": 20,
+      "exact_pair": [
+        24,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 20
+        },
+        "exact/conflict": {
+          "text": "Numerator: 24\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            24,
+            120
+          ],
+          "proposal": 80
+        },
+        "numerator/correct": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 20%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 20
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 10%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 10
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 96\nDenominator: 120\nProposed answer: 80%",
+          "pair": [
+            96,
+            120
+          ],
+          "proposal": 80
+        },
+        "denominator/correct": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 20
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 40
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 24\nDenominator: 240\nProposed answer: 10%",
+          "pair": [
+            24,
+            240
+          ],
+          "proposal": 10
+        },
+        "both/correct": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 20%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 20
+        },
+        "both/conflict": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 80%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 80
+        },
+        "both/coherent": {
+          "text": "Numerator: 96\nDenominator: 240\nProposed answer: 40%",
+          "pair": [
+            96,
+            240
+          ],
+          "proposal": 40
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nReserve | 24 | 2 | 7 | 3\nReserve | 58 | 3 | 3 | 2\nVerified | 52 | 3 | 5 | 2\nExcluded | 3 | 3 | 3 | 3\nExcluded | 7 | 3 | 6 | 1\nVerified | 7 | 8 | 6 | 2\nVerified | 10 | 2 | 6 | 1\nOther | 12 | 8 | 6 | 1\nOther | 76 | 4 | 8 | 2\nReserve | 56 | 5 | 4 | 1\nExcluded | 149 | 5 | 1 | 2\nExcluded | 2 | 6 | 2 | 2\nOther | 14 | 4 | 6 | 3\nVerified | 5 | 1 | 8 | 3\nOther | 4 | 4 | 8 | 2",
+      "target": 40,
+      "exact_pair": [
+        120,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 120\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            120,
+            300
+          ],
+          "proposal": 40
+        },
+        "exact/conflict": {
+          "text": "Numerator: 120\nDenominator: 300\nProposed answer: 76%",
+          "pair": [
+            120,
+            300
+          ],
+          "proposal": 76
+        },
+        "numerator/correct": {
+          "text": "Numerator: 228\nDenominator: 300\nProposed answer: 40%",
+          "pair": [
+            228,
+            300
+          ],
+          "proposal": 40
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 228\nDenominator: 300\nProposed answer: 20%",
+          "pair": [
+            228,
+            300
+          ],
+          "proposal": 20
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 228\nDenominator: 300\nProposed answer: 76%",
+          "pair": [
+            228,
+            300
+          ],
+          "proposal": 76
+        },
+        "denominator/correct": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 40
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 38
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 120\nDenominator: 600\nProposed answer: 20%",
+          "pair": [
+            120,
+            600
+          ],
+          "proposal": 20
+        },
+        "both/correct": {
+          "text": "Numerator: 228\nDenominator: 600\nProposed answer: 40%",
+          "pair": [
+            228,
+            600
+          ],
+          "proposal": 40
+        },
+        "both/conflict": {
+          "text": "Numerator: 228\nDenominator: 600\nProposed answer: 76%",
+          "pair": [
+            228,
+            600
+          ],
+          "proposal": 76
+        },
+        "both/coherent": {
+          "text": "Numerator: 228\nDenominator: 600\nProposed answer: 38%",
+          "pair": [
+            228,
+            600
+          ],
+          "proposal": 38
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 5 | 1 | 7 | 1\nReserve | 6 | 5 | 6 | 2\nExcluded | 4 | 4 | 8 | 2\nOther | 15 | 4 | 3 | 2\nOther | 2 | 2 | 6 | 3\nVerified | 2 | 1 | 1 | 2\nOther | 8 | 6 | 4 | 1\nReserve | 27 | 7 | 2 | 1\nVerified | 37 | 5 | 1 | 1\nOther | 1 | 1 | 4 | 2\nVerified | 17 | 5 | 3 | 2\nVerified | 3 | 5 | 1 | 3\nExcluded | 20 | 2 | 4 | 3\nExcluded | 23 | 2 | 3 | 2\nReserve | 24 | 7 | 7 | 3",
+      "target": 72,
+      "exact_pair": [
+        72,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 72
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 78
+        },
+        "numerator/correct": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 72
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 36%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 36
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 78\nDenominator: 100\nProposed answer: 78%",
+          "pair": [
+            78,
+            100
+          ],
+          "proposal": 78
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 72
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 39
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 36%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 36
+        },
+        "both/correct": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 72
+        },
+        "both/conflict": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 78%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 78
+        },
+        "both/coherent": {
+          "text": "Numerator: 78\nDenominator: 200\nProposed answer: 39%",
+          "pair": [
+            78,
+            200
+          ],
+          "proposal": 39
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nVerified | 5 | 4 | 3 | 2\nVerified | 7 | 3 | 8 | 1\nReserve | 41 | 6 | 8 | 2\nExcluded | 3 | 1 | 4 | 2\nExcluded | 6 | 7 | 2 | 3\nOther | 29 | 3 | 6 | 2\nVerified | 11 | 7 | 3 | 2\nOther | 4 | 3 | 4 | 2\nVerified | 14 | 2 | 2 | 3\nOther | 4 | 5 | 4 | 3\nExcluded | 52 | 3 | 3 | 2\nReserve | 7 | 4 | 8 | 3\nExcluded | 9 | 3 | 4 | 1\nOther | 14 | 8 | 8 | 1\nReserve | 8 | 3 | 7 | 1",
+      "target": 50,
+      "exact_pair": [
+        60,
+        120
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 60\nDenominator: 120\nProposed answer: 50%",
+          "pair": [
+            60,
+            120
+          ],
+          "proposal": 50
+        },
+        "exact/conflict": {
+          "text": "Numerator: 60\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            60,
+            120
+          ],
+          "proposal": 70
+        },
+        "numerator/correct": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 50%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 50
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 25%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 25
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 84\nDenominator: 120\nProposed answer: 70%",
+          "pair": [
+            84,
+            120
+          ],
+          "proposal": 70
+        },
+        "denominator/correct": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 50%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 50
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 35
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 60\nDenominator: 240\nProposed answer: 25%",
+          "pair": [
+            60,
+            240
+          ],
+          "proposal": 25
+        },
+        "both/correct": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 50%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 50
+        },
+        "both/conflict": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 70%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 70
+        },
+        "both/coherent": {
+          "text": "Numerator: 84\nDenominator: 240\nProposed answer: 35%",
+          "pair": [
+            84,
+            240
+          ],
+          "proposal": 35
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nExcluded | 9 | 1 | 7 | 2\nOther | 4 | 7 | 4 | 2\nReserve | 35 | 7 | 4 | 2\nVerified | 11 | 3 | 6 | 1\nExcluded | 15 | 4 | 4 | 2\nExcluded | 35 | 8 | 6 | 1\nVerified | 7 | 4 | 7 | 2\nOther | 13 | 4 | 8 | 2\nExcluded | 15 | 5 | 4 | 3\nOther | 5 | 3 | 1 | 1\nReserve | 3 | 1 | 6 | 3\nReserve | 17 | 7 | 1 | 1\nVerified | 10 | 6 | 7 | 3\nVerified | 24 | 5 | 1 | 2\nOther | 3 | 1 | 6 | 3",
+      "target": 72,
+      "exact_pair": [
+        72,
+        100
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 72
+        },
+        "exact/conflict": {
+          "text": "Numerator: 72\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            72,
+            100
+          ],
+          "proposal": 84
+        },
+        "numerator/correct": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 72%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 72
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 36%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 36
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 84\nDenominator: 100\nProposed answer: 84%",
+          "pair": [
+            84,
+            100
+          ],
+          "proposal": 84
+        },
+        "denominator/correct": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 72
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 42
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 72\nDenominator: 200\nProposed answer: 36%",
+          "pair": [
+            72,
+            200
+          ],
+          "proposal": 36
+        },
+        "both/correct": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 72%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 72
+        },
+        "both/conflict": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 84%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 84
+        },
+        "both/coherent": {
+          "text": "Numerator: 84\nDenominator: 200\nProposed answer: 42%",
+          "pair": [
+            84,
+            200
+          ],
+          "proposal": 42
+        }
+      }
+    },
+    {
+      "task": "ledger",
+      "question": "An audit calculates row credits by subtracting the smaller of Debit and Limit from Gross, then multiplying the result by Weight. Sum credits across rows. Eligible rows have class Verified or Other. Exclude Excluded and Reserve rows. What exact integer percentage of eligible credits comes from Verified rows?\nClass | Gross | Debit | Limit | Weight\nOther | 11 | 8 | 6 | 3\nVerified | 10 | 5 | 2 | 2\nVerified | 10 | 5 | 7 | 1\nExcluded | 55 | 2 | 2 | 3\nVerified | 118 | 1 | 1 | 2\nReserve | 71 | 4 | 7 | 1\nVerified | 9 | 4 | 8 | 3\nExcluded | 4 | 1 | 5 | 1\nReserve | 7 | 2 | 3 | 3\nReserve | 14 | 1 | 4 | 2\nOther | 9 | 6 | 6 | 1\nOther | 1 | 2 | 1 | 2\nOther | 10 | 4 | 7 | 2\nExcluded | 11 | 6 | 8 | 2\nExcluded | 65 | 1 | 1 | 2",
+      "target": 90,
+      "exact_pair": [
+        270,
+        300
+      ],
+      "states": {
+        "exact/correct": {
+          "text": "Numerator: 270\nDenominator: 300\nProposed answer: 90%",
+          "pair": [
+            270,
+            300
+          ],
+          "proposal": 90
+        },
+        "exact/conflict": {
+          "text": "Numerator: 270\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            270,
+            300
+          ],
+          "proposal": 36
+        },
+        "numerator/correct": {
+          "text": "Numerator: 108\nDenominator: 300\nProposed answer: 90%",
+          "pair": [
+            108,
+            300
+          ],
+          "proposal": 90
+        },
+        "numerator/conflict": {
+          "text": "Numerator: 108\nDenominator: 300\nProposed answer: 45%",
+          "pair": [
+            108,
+            300
+          ],
+          "proposal": 45
+        },
+        "numerator/coherent": {
+          "text": "Numerator: 108\nDenominator: 300\nProposed answer: 36%",
+          "pair": [
+            108,
+            300
+          ],
+          "proposal": 36
+        },
+        "denominator/correct": {
+          "text": "Numerator: 270\nDenominator: 600\nProposed answer: 90%",
+          "pair": [
+            270,
+            600
+          ],
+          "proposal": 90
+        },
+        "denominator/conflict": {
+          "text": "Numerator: 270\nDenominator: 600\nProposed answer: 18%",
+          "pair": [
+            270,
+            600
+          ],
+          "proposal": 18
+        },
+        "denominator/coherent": {
+          "text": "Numerator: 270\nDenominator: 600\nProposed answer: 45%",
+          "pair": [
+            270,
+            600
+          ],
+          "proposal": 45
+        },
+        "both/correct": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 90%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 90
+        },
+        "both/conflict": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 36%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 36
+        },
+        "both/coherent": {
+          "text": "Numerator: 108\nDenominator: 600\nProposed answer: 18%",
+          "pair": [
+            108,
+            600
+          ],
+          "proposal": 18
+        }
+      }
+    }
+  ]
+}
